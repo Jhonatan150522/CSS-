@@ -13,7 +13,10 @@ h1{
 p{
   text-align: center;
 }
-[href="http://sofiaplus.com"]{
+[href$="org"]{
+  color: rgb(138, 138, 5);
+}
+[href^="https"]{
   color: red;
   text-align: center;
 }
